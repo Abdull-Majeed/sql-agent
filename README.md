@@ -23,40 +23,43 @@ It converts **natural language questions** into **safe SQL queries** and execute
 - Python packages:
 
 ```bash
-pip install aiomysql python-dotenv google-genai
+pip install aiomysql python-dotenv google-genai```
 
 
 Setup
 
 1. Clone the repository
-``git clone https://github.com/Abdull-Majeed/sql-agent.git
-cd sql-agent``
+```bash
+git clone https://github.com/Abdull-Majeed/sql-agent.git
+cd sql-agent```
 
 
 2. Create a .env file in the project root
 
-`` 
+```bash
 MYSQL_HOST=localhost
 MYSQL_PORT=3306
 MYSQL_USER=root
 MYSQL_PASSWORD=your_password
 MYSQL_DATABASE=your_database
-GOOGLE_API_KEY=your_google_gemini_api_key
+GOOGLE_API_KEY=your_google_gemini_api_key```
 
 
 3. Activate your virtual environment
 
-`` 
+```bash
 python -m venv .venv
 source .venv/bin/activate  # Linux/macOS
-.venv\Scripts\activate     # Windows
-``
+.venv\Scripts\activate     # Windows 
+```
 
 4. Install dependencies
 
-``pip install -r requirements.txt``
+```bash
+pip install -r requirements.txt```
 
 
 5. Run the agent
 
-``python sql-agent.py``
+```bash
+python sql-agent.py```
