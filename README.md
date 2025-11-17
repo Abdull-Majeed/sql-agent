@@ -22,12 +22,10 @@ It converts **natural language questions** into **safe SQL queries** and execute
 - Google Gemini API key
 - Python packages:
 
-```bash
-pip install aiomysql python-dotenv google-genai
-
 
 Setup
 
+```bash
 1. Clone the repository
 git clone https://github.com/Abdull-Majeed/sql-agent.git
 cd sql-agent
