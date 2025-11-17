@@ -1,0 +1,6 @@
+google-generativeai
+aiomysql
+python-dotenv
+rich
+openai
+openai-agents
