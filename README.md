@@ -1,6 +1,6 @@
 # MySQL Agent
 
-A **MySQL Agent** powered by **Google Gemini**.  
+A **MySQL Agent**.
 It converts **natural language questions** into **safe SQL queries** and executes them on your database
 
 ---
